@@ -47,6 +47,10 @@ eventbrite:                            # optional: alphanumeric key for Eventbri
 </iframe>
 {% endif %}
 
+<a href="https://combine.org.au">
+<img src="screen_banner.png", alt="COMBINE">
+</a>
+
 <h4>This is the workshop template.  Use it to create your own website.
 Delete these lines and please fill in 
 <a href="{{site.amy_site}}/submit">this self-organized workshop form</a>
@@ -79,6 +83,27 @@ and the administrator will contact you if we need any extra information.</h4>
   </em>
 </p>
 
+<p>
+  <a href="https://combine.org.au">COMBINE</a> is the national association
+  for Australian students studying bioinformatics and computational
+  biology, acting as the student sub-committee of the Australian
+  Bioinformatics and Computational Biology Society (ABACBS) and the
+  official International Society for Computational Biology (ISCB) Regional
+  Student Group (RSG) for Australia. We aim to bring together students from
+  the computational and life sciences through networking, collaboration and
+  professional development.
+</p>
+<p align="center">
+  <em>
+    To keep up to date with what COMBINE is doing join our
+    <a href="http://eepurl.com/4Qp0r">mailing list</a> or
+    follow us on <a
+       href="https://www.facebook.com/combine.australia">Facebook</a>
+    or <a href="https://twitter.com/combine_au">Twitter</a>.
+  </em>
+</p>
+
+
 <!--
   AUDIENCE
 
@@ -87,7 +112,9 @@ and the administrator will contact you if we need any extra information.</h4>
 -->
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed at graduate students and other researchers, in the
+  computational life sciences, particularly those studying the Master of
+  Science (Bioinformatics) at the University of Melbourne.
   <strong>You don't need to have any previous knowledge of the tools that will
     be presented at the workshop.</strong>
 </p>
@@ -206,25 +233,31 @@ and the administrator will contact you if we need any extra information.</h4>
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Day 1, Thursday 20 April</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00</td>  <td>Help setting up (optional)</td> </tr>
+      <tr> <td>09:30</td>  <td>Introduction to the UNIX shell</td> </tr>
+      <tr> <td>11:00</td>  <td>Morning tea break</td> </tr>
+      <tr> <td>11:30</td>  <td>Automating tasks with the UNIX shell</td> </tr>
+      <tr> <td>12:30</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:30</td>  <td>Introduction to R and RStudio</td> </tr>
+      <tr> <td>15:00</td>  <td>Afternoon tea break</td> </tr>
+      <tr> <td>15:30</td>  <td>Data structures in R</td> </tr>
+      <tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Day 1, Friday 21 April</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00</td>  <td>Questions (optional)</td> </tr>
+      <tr> <td>09:30</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>11:00</td>  <td>Morning tea break</td> </tr>
+      <tr> <td>11:30</td>  <td>Collaborating with Git</td> </tr>
+      <tr> <td>12:30</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:30</td>  <td>Flow control and functions in R</td> </tr>
+      <tr> <td>15:00</td>  <td>Afternoon tea break</td> </tr>
+      <tr> <td>15:30</td>  <td>Data manipulation and visualisation in R</td> </tr>
+      <tr> <td>16:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
@@ -273,7 +306,7 @@ and the administrator will contact you if we need any extra information.</h4>
 <h2 id="syllabus">Syllabus</h2>
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
     <h3 id="syllabus-shell">The Unix Shell</h3>
     <ul>
       <li>Files and directories</li>
@@ -282,24 +315,24 @@ and the administrator will contact you if we need any extra information.</h4>
       <li>Looping over files</li>
       <li>Creating and running shell scripts</li>
       <li>Finding things</li>
+      <li><a href="{{site.swc_pages}}/shell-novice">Lesson materials...</a></li>
       <li><a href="{{site.swc_pages}}/shell-novice/reference/">Reference...</a></li>
     </ul>
   </div>
-   <div class="col-md-6">
-    <h3 id="syllabus-r">Programming in R</h3>
+   <div class="col-md-4">
+    <h3 id="syllabus-r">R for reproducible analysis</h3>
     <ul>
+      <li>Project and data management</li>
       <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
+      <li>Manipulating data</li>
       <li>Creating and using functions</li>
       <li>Loops and conditionals</li>
-      <li>Using R from the command line</li>
+      <li>Publication-quality data visualisation</li>
+      <li><a href="{{site.swc_pages}}/r-novice-gapminder">Lesson materials...</a></li>
       <li><a href="{{site.swc_pages}}/r-novice-gapminder/reference/">Reference...</a></li>
     </ul>
   </div>
-</div>
-
-<div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
     <h3 id="syllabus-git">Version Control with Git</h3>
     <ul>
       <li>Creating a repository</li>
@@ -310,6 +343,7 @@ and the administrator will contact you if we need any extra information.</h4>
       <li>Resolving conflicts</li>
       <li>Open licenses</li>
       <li>Where to host work, and why</li>
+      <li><a href="{{site.swc_pages}}/git-novice">Lesson materials...</a></li>
       <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
     </ul>
   </div>
